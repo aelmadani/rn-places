@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Great Places",
+    "slug": "great-places-madani",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/places.png",
+    "splash": {
+      "image": "./assets/places-adaptive.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
